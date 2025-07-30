@@ -1,0 +1,26 @@
+{
+  "name": "game-website-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/style.scss:style/style.css",
+    "sass:watch":"sass --watch scss/style.scss:style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsadbek/Game-Website-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maxsadbek/Game-Website-Page/issues"
+  },
+  "homepage": "https://github.com/maxsadbek/Game-Website-Page#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
