@@ -352,4 +352,113 @@ button {
   gap: 10rem;
 }
 
+.text3 {
+  text-align: center;
+}
+.text3 h1 {
+  margin-top: 4rem;
+  font-size: 40px;
+  color: #fff;
+}
+.text3 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.grid_box {
+  margin-top: 4rem;
+}
+.grid_box img {
+  width: 450px;
+  margin-right: 2.5rem;
+}
+
+.grid_box2 {
+  margin-top: 2rem;
+}
+.grid_box2 .gir_img {
+  width: 320px;
+  height: 270px;
+}
+.grid_box2 .gir_img2 {
+  width: 470px;
+  height: 270px;
+}
+.grid_box2 .gir_img3 {
+  width: 570px;
+  height: 270px;
+}
+.grid_box2 img {
+  margin-right: 2.3rem;
+}
+
+.grid_button {
+  margin-top: 4rem;
+  text-align: center;
+  align-items: center;
+}
+.grid_button button {
+  padding: 16px 40px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.0901960784);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 2rem;
+}
+.grid_button button:hover {
+  -webkit-box-shadow: 5px 5px 0px -2px rgba(255, 255, 255, 0.88);
+  -moz-box-shadow: 5px 5px 0px -2px rgba(255, 255, 255, 0.88);
+  box-shadow: 5px 5px 0px -2px rgba(255, 255, 255, 0.88);
+}
+
+.contact_text {
+  margin-top: 5rem;
+}
+.contact_text h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.contact_text p {
+  font-size: 20px;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  margin-top: 5rem;
+  width: 100%;
+  height: 200px;
+  padding: 2rem 4rem;
+  background-color: rgba(255, 255, 255, 0.0901960784);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.contact p {
+  font-size: 20px;
+  color: #fff;
+  width: 60%;
+  margin-top: 2rem;
+}
+.contact form {
+  display: flex;
+  gap: 1rem;
+}
+.contact form input {
+  width: 250px;
+  padding: 20px 10px;
+}
+.contact form .button {
+  width: 100px;
+  padding: 13px 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
