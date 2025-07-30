@@ -1,0 +1,76 @@
+@use "./variable" as *;
+header {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    h1 {
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 900;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    #nav_menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem;
+      ul {
+        display: flex;
+        gap: 5rem;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+            font-size: 20px;
+            text-transform: capitalize;
+            color: #fff;
+          }
+
+          a:hover {
+            transform: translateY(-3px);
+          }
+
+          a::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: $color-primary;
+            transform: scaleY(0);
+            transform-origin: bottom;
+            transition: transform 0.3s ease;
+          }
+
+          a:hover::before {
+            transform: scaleY(1);
+          }
+        }
+      }
+      button {
+        padding: 8px 26px;
+        font-size: 17px;
+        background-color: $color-hover;
+        color: #fff;
+        border: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          -webkit-box-shadow: 4px 4px 0px 0px rgba(255, 255, 255, 1);
+          -moz-box-shadow: 4px 4px 0px 0px rgba(255, 255, 255, 1);
+          box-shadow: 4px 4px 0px 0px rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+}
+
+button {
+  cursor: pointer;
+}

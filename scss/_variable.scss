@@ -1,0 +1,35 @@
+// ==== COLORS ====
+$color-primary: #ff7b29;
+$color-secondary: #161A1D;
+$color-accent: #F9F9F9;
+$color-bg-dark: #0F0F0F;
+$color-light-gray: #CFCFCF;
+$color-border: #262626;
+$color-white: #ffffff;
+$color-hover: #e2870f;
+
+// ==== TYPOGRAPHY ====
+$font-family-base: 'Inter', sans-serif;
+$font-size-h1: 48px;
+$font-size-h2: 36px;
+$font-size-h3: 24px;
+$font-size-body: 16px;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+// ==== SPACING ====
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+
+// ==== BORDERS ====
+$border-radius-sm: 6px;
+$border-radius-md: 12px;
+$border-radius-full: 999px;
+
+// ==== SHADOWS ====
+$shadow-soft: 0px 4px 20px rgba(0, 0, 0, 0.1);
+$shadow-card: 0px 8px 24px rgba(0, 0, 0, 0.2);

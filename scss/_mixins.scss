@@ -1,0 +1,45 @@
+// Text style mixin
+@mixin heading($size, $weight: $font-weight-bold) {
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $font-family-base;
+  color: $color-white;
+  line-height: 1.2;
+}
+
+@mixin body-text($size: $font-size-body, $color: $color-light-gray) {
+  font-size: $size;
+  font-weight: $font-weight-regular;
+  color: $color;
+  font-family: $font-family-base;
+}
+
+// Button style
+@mixin button($bg: $color-primary, $color: $color-white) {
+  background-color: $bg;
+  color: $color;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $border-radius-md;
+  font-weight: $font-weight-medium;
+  border: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-hover;
+  }
+}
+
+// Card container
+@mixin card($radius: $border-radius-md, $shadow: $shadow-card) {
+  background-color: $color-secondary;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  padding: $spacing-lg;
+}
+
+// Flex center mixin
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
