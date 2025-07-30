@@ -344,5 +344,12 @@ button {
   font-size: 30px;
   animation: slowBack 1s ease-in-out infinite alternate;
 }
+.lorem .lorem_box2 {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
 
 /*# sourceMappingURL=style.css.map */
