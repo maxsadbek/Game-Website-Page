@@ -178,3 +178,31 @@
     margin-left: 12rem;
   }
 }
+
+.banner{
+  margin-top: 5rem;
+  h2{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 1rem;
+  }
+  p{
+    color: #fff;
+    font-size: 18px;
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+  .banner_img2{
+    margin-top: 4rem;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 600px;
+  }
+  .banner_img{
+    position: absolute;
+    margin-top: -2rem;
+    right: 20%;
+    width: 300px;
+  }
+}
