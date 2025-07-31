@@ -473,4 +473,84 @@ button {
   font-size: 15px;
 }
 
+footer {
+  margin-top: 7rem;
+  background-color: #000;
+  padding: 3rem;
+  gap: 3rem;
+}
+footer hr {
+  opacity: 0.5;
+}
+footer .footer_flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+footer .footer_logo h2 {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+footer .footer_logo h3 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  width: 87%;
+  margin-bottom: 2rem;
+}
+footer .footer_logo a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer_text {
+  width: 200px;
+}
+footer .footer_text h2 {
+  color: #fff;
+  font-size: 20px;
+}
+footer .footer_text p {
+  font-size: 18px;
+  line-height: 2;
+  color: #fff;
+}
+footer .footer_text2 {
+  margin-left: 4rem;
+}
+footer .footer_text2 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+footer .footer_text2 p {
+  font-size: 18px;
+  color: #fff;
+  width: 65%;
+  margin-bottom: 2rem;
+}
+footer .footer_text2 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer_svg {
+  width: 400px;
+  margin-top: 8rem;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer_svg img:hover {
+  filter: drop-shadow(0px 0px 10px #fff);
+}
+footer .flex {
+  text-align: center;
+}
+footer .flex p {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */
